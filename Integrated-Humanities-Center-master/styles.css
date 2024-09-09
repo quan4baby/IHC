@@ -1,0 +1,223 @@
+body {
+background-color: whitesmoke;
+    overflow-x: hidden;
+}
+
+h1  {
+color: black;
+font-family: Helvetica,arial,sans-serif; font-weight: lighter;
+}
+
+h2   {
+color: black;
+font-family: Helvetica,arial,sans-serif; font-weight: lighter;
+}
+
+h3   {
+color: black;
+font-family: Helvetica,arial,sans-serif; font-weight: lighter;
+}
+
+h4   {
+color: black;
+font-family: Helvetica,arial,sans-serif; font-weight: lighter;
+}
+
+
+p {
+color: black;
+font-family: Helvetica,arial,sans-serif;
+ }
+
+ul {
+	text-align: left;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+}
+
+nav ul{
+	max-width: 100%;
+	max-height: auto;
+	background-color:#c33;
+    position: relative;
+    margin: 0 -0.7em;
+    padding: 0.25rem 15px;
+  	text-align: center;
+}
+
+
+nav li{
+	display:inline-block;
+	font-size: 18px;
+  	line-height: 40px;
+  	height: auto auto;
+	list-style-type: none;
+
+}
+
+
+nav li a{
+	max-width: auto auto;
+	padding: 10px 10px;
+	display: inline-block;
+	background-color: #003366;
+	color: #FFF;
+	margin:10px 10px;
+	text-decoration:none;
+    transition-duration: 0.3s;
+}
+
+nav li a:hover{
+	background-color: #f9d110;
+	color: #666;
+}
+   
+
+.img_float_right {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: thin solid #312E2E;
+    float: right;}
+
+.btn1{
+     margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+    float: left;
+}
+
+.btn2{
+     margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+   
+    float: right;
+}
+
+.center {
+  margin: auto;
+  width: 80%;
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.square{ 
+    max-width: 100%; 
+	max-height: 250px;
+    Background-color: #EF3F42; 
+}
+
+.humanities{
+	max-width: 100%;
+	max-height: 250px;
+	background-color: black;
+}
+
+.landingtitle {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    margin: 0 -0.3em;
+    padding: 0.25rem 30px;
+    background: #333;
+}
+
+.removeBullets {
+	list-style: none;
+}
+
+.alignleft {
+    margin-left: 1.5em;
+    text-align: left;
+}
+
+.toolcontainer {
+    width: 82.5%;
+    max-width: 1920px;
+    margin: 10px auto;
+    border: 2px solid black;
+    padding: 10px;
+    grid-gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toolcontainer img {
+    width: 100%;
+    height: auto;
+}
+
+.teachingcontainer {
+    width: 96%;
+    max-width: 1920px;
+    margin: 10px auto;
+    border: 2px solid black;
+    padding: 10px;
+    grid-gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.teachingcontainer img {
+    width: 100%;
+	min-width: 30%;
+    height: auto;
+}
+
+.centerText{
+	text-align: center;
+}
+
+.pedagogyContainer img {
+    display: inline-block;
+}
+
+.pedagogyImage {
+    max-width: 50%;
+    height: auto;
+    max-height: 21em;
+}
+
+.pedagogy6Image {
+    max-width: 93.7%;
+    height: auto;
+    max-height: 21em;
+}
+
+
+.pedagogy5Image {
+    max-width: 93.7%;
+    height: auto;
+    max-height: 25em;
+}
+
+
+.pedagogy1Image {
+    max-width: 25%;
+    height: auto;
+    max-height: 18em;
+}
+
+.toolImage {
+    max-width: 93.7%;
+    height: auto;
+    max-height: 18em;
+}
+
+.conferenceImage {
+    max-width: 93.7%;
+    height: auto;
+    max-height: 25em;
+}
